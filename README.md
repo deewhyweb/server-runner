@@ -1,0 +1,1 @@
+podman run -e FILE_PATH=http://downloads-artifacts.apps.cluster-g2bz8.g2bz8.sandbox2948.opentlc.com/upload -e FILE_NAME=jboss-eap-7.4.0.zip -e FILE_FOLDER=jboss-eap-7.4 -e PORT=8100 -p 8100:8100 server-runner
